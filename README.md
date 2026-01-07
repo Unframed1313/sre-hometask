@@ -60,7 +60,7 @@ Please place the file into the `task2` folder.
 
 ## Task 3. Graph Dracula to rule them all
 
-For this task, we are showing a Prometheus alert example below, please check it along with the attached screenshot example and anwser the following questions:
+For this task, we are showing a Prometheus alert example below, please check it and anwser the following questions:
 
 ```sh
 - alert: ReplicationNotRunning
