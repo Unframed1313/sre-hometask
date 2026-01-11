@@ -16,18 +16,17 @@ I found out YAML is not only case-sensitive but also indentaion-sensitive and do
 
 containers is a part of spec element as well as affinity. So it should be sibling (have same number of spaces) to affinity
 >> Added a missing space in front of 'containers:'
-======
 nano text editor also showed an excessive space in the end of line 
             cpu: 3 
 >> removed. It did not showed as an error i nthe checker, just wanted tro make sure
-======
+
 Latly noticed that operators/parameters containing a few words are written with capital latter starting each new word: 
 for eg: nodeAffinity, containerPort and so on
 but all lowever-case in 
     targetport: 80
 
 >> also asked AI regarding the syntax and was suggested to use targetPort
-=====
+
 
 Then went to applying the file with kubectl:
 $kubectl apply -f ~/git_projects/sre-hometask/task1/nginx1.yaml
@@ -47,7 +46,7 @@ $ kubectl apply -f ~/git_projects/sre-hometask/task1/nginx1.yaml --validate=fals
 deployment.apps/sretest created
 service/sretest-service created
 
-=====Tests:====
+Tests:
 unfrmd@linux-pc:~/git_projects/sre-hometask/task1$ kubectl get Deployments
 NAME      READY   UP-TO-DATE   AVAILABLE   AGE
 sretest   1/1     1            1           50s
