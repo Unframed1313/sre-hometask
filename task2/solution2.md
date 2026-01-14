@@ -1,3 +1,4 @@
+<pre>
 Since the log lines are well standartized- we may use awk for most of the requested tasks. 
 First we take one line as example to count the necessary positions: 
  head access.log -n1
@@ -108,3 +109,4 @@ Using the same or similar methods we may get pleanty of useful infromation, depe
 -its not an example but IPs, number of requests may be useful to consider whether the traffic is expected or unwanted (like DoS attacks)
 -review the validity of User-Agents (browsers, bots, referred traffic) 
 And so on
+</pre>
