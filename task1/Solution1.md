@@ -1,3 +1,4 @@
+<pre>
 When trying to upload initial 'nginx.yaml' I received an error 
 error: error parsing /home/unfrmd/git_projects/sre-hometask/task1/nginx.yaml: error converting YAML to JSON: yaml: line 25: did not find expected key
 
@@ -74,3 +75,4 @@ ETag: "69386a3a-267"
 Accept-Ranges: bytes
 
 See also screenshots from minikube dash in the task1 subfolder
+</pre>

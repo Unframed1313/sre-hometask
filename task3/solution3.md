@@ -1,3 +1,4 @@
+<pre>
 The ReplcationNotRunning alert fires when 
 mysql_slave_status_slave_io_running or  mysql_slave_status_slave_sql_running
 replication's metrics monitored by Prometheus return value '0'
@@ -38,3 +39,4 @@ The dashboard shows these 3 parameters, allowing to view the history and time ho
 Each of the parameter's value helps us understand better where to look at first for further investigation of the incident.
 For example if IO parameter is triggering the alert, we may start looking straight into related possible causes instead of 
 paniking and bindly looking for everything we can think of.
+</pre>
